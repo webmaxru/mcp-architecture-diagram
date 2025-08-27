@@ -1,5 +1,12 @@
 # MCP Architecture Diagram
 
+## Rendered:
+
+![MCP Architecture Diagram](mcp.png)
+
+
+## Source:
+
 ```mermaid
 flowchart LR
  subgraph Internet["Internet"]
@@ -24,4 +31,3 @@ flowchart LR
     S1 <--> D1
     C3 <-- Streamable HTTP --> S3
     S2 <-- HTTP --> D2
-```
